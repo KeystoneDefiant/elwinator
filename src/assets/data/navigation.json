@@ -1,0 +1,53 @@
+{
+	"global":{
+		"icon":"mdi-earth",
+		"label":"Global",
+		"contents":{
+			"preshow":{"label":"Preshow Message"},
+			"commentator_left":{"label":"Commentator Left"},
+			"commentator_right":{"label":"Commentator Right"},
+			"eventName":{"label":"Event Name"},
+			"eventURL":{"label":"Event URL"}
+		}
+	},
+
+	"sd_2p":{
+		"icon":"mdi-numeric-2-circle-outline",
+		"label":"Standard Def 2 Player",
+		"contents":{
+			"sd_2p_left":{"label":"SD 2 Player Left"},
+			"sd_2p_right":{"label":"SD 2 Player Right"}
+		}
+	},
+
+	"sd_4p":{
+		"icon":"mdi-numeric-4-circle-outline",
+		"label":"Standard Def 4 Player",
+		"contents":{
+			"sd_4p_topleft":{"label":"SD 4 Player Top Left"},
+			"sd_4p_topright":{"label":"SD 4 Player Top Right"},
+			"sd_4p_bottomleft":{"label":"SD 4 Player Bottom Left"},
+			"sd_4p_bottomright":{"label":"SD 4 Player Bottom Right"}
+		}
+	},
+
+	"hd_2p":{
+		"icon":"mdi-numeric-2-box-multiple",
+		"label":"High Def 2 Player",
+		"contents":{
+			"hd_2p_left":{"label":"HD 2 Player Left"},
+			"hd_2p_right":{"label":"HD 2 Player Right"}
+		}
+	},
+
+	"hd4p":{
+		"icon":"mdi-numeric-4-box-multiple",
+		"label":"High Def 4 Player",
+		"contents":{
+			"hd_4p_topleft":{"label":"HD 4 Player Top Left"},
+			"hd_4p_topright":{"label":"HD 4 Player Top Right"},
+			"hd_4p_bottomleft":{"label":"HD 4 Player Bottom Left"},
+			"hd_4p_bottomright":{"label":"HD 4 Player Bottom Right"}
+		}
+	}
+}
