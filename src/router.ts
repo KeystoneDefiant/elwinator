@@ -3,7 +3,6 @@ import Router from "vue-router";
 import index from "./views/index.vue";
 import broadcastOptions from "./views/broadcastOptions.vue";
 
-
 Vue.use(Router);
 
 export default new Router({
