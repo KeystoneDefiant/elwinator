@@ -23,13 +23,13 @@ export default Vue.extend({
     Nav,
     AppBar
   },
-  created () {
-      this.$vuetify.theme.dark = true
-    },
+  created(){
+      this.$vuetify.theme.dark = true;
+  }
 });
 </script>
 <style>
   ::-webkit-scrollbar {
-    display: none;
-}
+      display: none;
+  }
 </style>
