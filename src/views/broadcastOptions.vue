@@ -1,12 +1,11 @@
 <template>
 		<div class="broadcast">
 				<textWriter 
-				v-for="(item, index) in navData[id].contents" 
-				v-bind:key="index" 
-				:label="item.label" 
-				:filename="index"
+          v-for="(item, index) in navData[id].contents" 
+          v-bind:key="index" 
+          :label="item.label" 
+          :filename="index"
 				>
-				
 				</textWriter>
 		</div>
 
@@ -23,7 +22,7 @@ export default {
   data() {
     return {
       navData: dataFile
-    };
+    }
   }
 };
 </script>

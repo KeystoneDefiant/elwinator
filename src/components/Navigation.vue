@@ -1,7 +1,6 @@
 <template>
   <v-navigation-drawer permanent app clipped>
     <v-list dense rounded nav>
-      <!-- <v-list-item to="/">Fuck</v-list-item> -->
       <v-list-item
         v-for="(data, index) in navData"
         v-bind:key="data.label"
@@ -36,7 +35,7 @@ export default {
   data() {
     return {
       navData: dataFile
-    };
+    }
   }
 };
 </script>

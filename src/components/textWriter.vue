@@ -9,7 +9,6 @@
 			v-on:keyup="dirtyBird"
 			v-bind:class="{dirtyBird: isDirty, saved: isSaving}"
 			class="transition-swing"
-			
           ></v-text-field>
 
 </template>
