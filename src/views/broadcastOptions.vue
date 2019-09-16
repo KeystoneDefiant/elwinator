@@ -1,8 +1,13 @@
 <template>
 		<div class="broadcast">
-			<transition-group name="trans">
-				<textWriter v-for="(item, index) in navData[id].contents" v-bind:key="index" :label="item.label" :filename="index"></textWriter>
-			</transition-group>
+				<textWriter 
+				v-for="(item, index) in navData[id].contents" 
+				v-bind:key="index" 
+				:label="item.label" 
+				:filename="index"
+				>
+				
+				</textWriter>
 		</div>
 
 </template>

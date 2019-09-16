@@ -18,7 +18,7 @@
 
       <template v-slot:append>
         <div class="pa-2">
-          <v-btn block>Logout</v-btn>
+          <v-img src="@/assets/img/levelonelogo.png"></v-img>
         </div>
       </template>
       
