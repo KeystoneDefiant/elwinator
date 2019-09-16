@@ -1,11 +1,10 @@
 'use strict'
-
+/* global __static */
 import { app, protocol, BrowserWindow } from 'electron'
 import {
   createProtocol,
-  //installVueDevtools
+  installVueDevtools
 } from 'vue-cli-plugin-electron-builder/lib'
-
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -20,6 +19,7 @@ function createWindow () {
 	win = new BrowserWindow({ 
 		width: 700, 
 		height: 768, 
+		//icon: path.join(__static, 'elwin.png'),
 		autoHideMenuBar: true,
 		resizable: false,
 		maximizable: false,
@@ -32,11 +32,11 @@ function createWindow () {
 	// Load the url of the dev server if in development mode
 	win.loadURL(process.env.WEBPACK_DEV_SERVER_URL as string)
 	if (!process.env.IS_TEST) win.webContents.openDevTools()
-	} else {
-		createProtocol('app')
-		// Load the index.html when not in development
-		win.loadURL('app://./index.html')
-	}
+  } else {
+	createProtocol('app')
+	// Load the index.html when not in development
+	win.loadURL('app://./index.html')
+  }
 
   win.on('closed', () => {
 	win = null

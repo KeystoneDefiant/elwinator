@@ -1,11 +1,7 @@
 {
-  "name": "elwinator",
-  "author": "Keystone Defiant",
-  "homepage": "https://github.com/KeystoneDefiant/elwinator",
-  "description": "Generates text files based on input fields configured in a JSON file, mostly for use with OBS text variables.",
+  "name": "elwin",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -16,13 +12,6 @@
     "postuninstall": "electron-builder install-app-deps"
   },
   "main": "background.js",
-  "build": {
-    "appId": "com.port14.elwinator",
-    "win": {
-      "icon": "src/assets/img/elwin.ico",
-      "publish": ["github"]
-    }
-  },
   "dependencies": {
     "animate.css": "^3.7.2",
     "core-js": "^2.6.5",
@@ -66,6 +55,7 @@
       "@vue/prettier",
       "@vue/typescript"
     ],
+    "rules": {},
     "parserOptions": {
       "parser": "@typescript-eslint/parser"
     }
