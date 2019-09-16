@@ -54,8 +54,6 @@ export default{
 			this.isDirty = true;
 		}
 	}
-
-
 }
 </script>
 <style>

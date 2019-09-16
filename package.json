@@ -1,4 +1,8 @@
 {
+  "name": "elwinator",
+  "author": "Keystone Defiant",
+  "homepage": "https://github.com/KeystoneDefiant/elwinator",
+  "description": "Generates text files based on input fields configured in a JSON file, mostly for use with OBS text variables.",
   "version": "0.1.0",
   "name": "elwinator",
   "author": "Keystone Defiant",
@@ -6,7 +10,6 @@
   "description": "Generates text files based on input fields configured in a JSON file, mostly for use with OBS text variables.",
   "private": true,
   "license": "MIT",
-  "displayName": "Elwinator",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
