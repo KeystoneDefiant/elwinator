@@ -19,7 +19,7 @@ function createWindow () {
 	win = new BrowserWindow({ 
 		width: 700, 
 		height: 768, 
-		//icon: path.join(__static, 'elwin.png'),
+		icon: __dirname + 'assets/elwin.ico',
 		autoHideMenuBar: true,
 		resizable: false,
 		maximizable: false,
